@@ -46,3 +46,20 @@ body {
     padding: 1%;
     font-family: 'Roboto Mono';
 }
+
+/* Button to begin Quiz */
+#quiz-start {
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin:auto;
+}
+
+#quiz-start:hover {
+    background-color: red;
+}
