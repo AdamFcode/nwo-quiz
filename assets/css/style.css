@@ -78,6 +78,26 @@ body {
     transform: translate(-50%, -50%);
 }
 
+#wrestler-name {
+    font-family: 'Creepster';
+    font-size: xx-large;
+}
+
+#question-display {
+    font-family: 'Roboto Mono';
+}
+
+.nxt-btn {
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+   padding: 5px;
+   margin-top: 25px;
+}
+
+
+
 /* Media queries for larger screens */
 @media (min-width: 768px) {
     #rules-img {
