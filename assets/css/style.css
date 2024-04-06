@@ -10,3 +10,15 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+/* General Styles */
+body {
+    background: black;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-family: 'Creepster'; 
+    font-size: xx-large;
+}
