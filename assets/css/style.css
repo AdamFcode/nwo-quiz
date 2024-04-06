@@ -22,3 +22,27 @@ body {
     font-family: 'Creepster'; 
     font-size: xx-large;
 }
+
+/* Image on Homepage */
+#splash {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ruleset Div */
+.rulediv {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.ruleset h2 {
+    font-family: 'Creepster';
+    font-size: xx-large;
+}
+
+.ruleset p {
+    padding: 1%;
+    font-family: 'Roboto Mono';
+}
