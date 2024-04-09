@@ -215,4 +215,4 @@ function clearStatusClass(element) {
 }
 
 //*Use Console to figure out whty above isnt working. classList seems to be the issue
-//*SelectAnswer if function causing issue also
+//*SelectAnswer if function may be causing issue also. Console.
