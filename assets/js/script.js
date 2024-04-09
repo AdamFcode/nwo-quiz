@@ -153,3 +153,14 @@ let shuffledQuestions, currentQuestionIndex;
           ]
       },];
 
+      //* Event Listener to start Game on click
+startButton.addEventListener('click', startGame);
+
+//*Function that starts the game
+function startGame() {
+  startButton.classList.add('hide');
+  shuffledQuestions = questions.sort(() => Math.random() - .5);
+  currentQuestionIndex = 0;
+  qContainer.classList.remove('hide');
+  nextQuestion();
+}
