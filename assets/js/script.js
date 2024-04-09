@@ -171,4 +171,15 @@ function showQuestion(question) {
   currentQuestion.textContent = q.question;
   wrestlerName.textContent = q.wrestler;
   wrestlerImage.querySelector("img").src = q.img;
+
+  q.answer.forEach(answer => {
+    const button = document.createElement('button');
+    button.innerText = answer.text;
+    button.classList.add('btn');
+    if (answer.correct) {
+        button.dataset.correct = answer.correct;
+    }
+    button.addEventListener('click', () => selectAnswer(button));
+    answerButtons.appendChild(button);
+});
 }
