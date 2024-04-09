@@ -171,7 +171,6 @@ function showQuestion(question) {
   currentQuestion.textContent = q.question;
   wrestlerName.textContent = q.wrestler;
   wrestlerImage.querySelector("img").src = q.img;
-
   q.answer.forEach(answer => {
     const button = document.createElement('button');
     button.innerText = answer.text;
