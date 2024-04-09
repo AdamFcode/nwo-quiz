@@ -138,6 +138,14 @@ body {
     display: none;
 }
 
+.right {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
+
 /* Media queries for larger screens */
 @media (min-width: 768px) {
     #rules-img {
