@@ -5,6 +5,7 @@
  const currentQuestion = document.getElementById('question-display');
  const answerButtons = document.getElementById('answer-btns');
 const nextButton = document.getElementById('next-btn');
+const startButton = document.getElementById('start-btn')
 
 let shuffledQuestions, currentQuestionIndex;
 
@@ -151,3 +152,4 @@ let shuffledQuestions, currentQuestionIndex;
             {text: 'Jabroni!', correct: false}
           ]
       },];
+
