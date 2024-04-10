@@ -205,3 +205,13 @@ function selectAnswer(selectedButton) {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
   }
+
+  //*Function to reset current Question
+  function resetState() {
+    nextButton.classList.add("hide");
+    while (answerButtons.firstChild) {
+      answerButtons.removeChild(answerButtons.firstChild);
+    }
+  }
+
+  
