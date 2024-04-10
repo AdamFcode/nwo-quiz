@@ -8,6 +8,7 @@ const nextButton = document.getElementById('next-btn');
 const startButton = document.getElementById('start-btn')
 
 let shuffledQuestions, currentQuestionIndex;
+let score = 0;
 
 //*Function to hide next button when not needed
 document.addEventListener('DOMContentLoaded', () => {
@@ -188,6 +189,10 @@ function selectAnswer(selectedButton) {
   Array.from(answerButtons.children).forEach(button => {
     button.disabled = true;});
   
+    const correct = selectedButton.dataset.correct;
+    if (correct)  {
+      score++;
+    }
   
     if (questions.length > currentQuestionIndex + 1) {
       nextButton.classList.remove("hide");
@@ -214,4 +219,3 @@ function selectAnswer(selectedButton) {
     }
   }
 
-  
