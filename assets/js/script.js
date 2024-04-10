@@ -192,3 +192,16 @@ function selectAnswer(selectedButton) {
     if (questions.length > currentQuestionIndex + 1) {
       nextButton.classList.remove("hide");
     }}
+
+    //* Function to detect next button click and progress Quiz
+    nextButton.addEventListener('click', () => {
+      currentQuestionIndex++;
+      nextQuestion();
+    }
+  )
+
+  //*Function to set the next question
+  function nextQuestion() {
+    resetState();
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
+  }
