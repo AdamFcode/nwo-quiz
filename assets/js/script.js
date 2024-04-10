@@ -11,7 +11,7 @@ const scoreTally = document.createElement('div');
 
 scoreTally.setAttribute('id', 'score');
 scoreTally.classList.add('score', 'hide');
-quizApp.appendChild(scoreTally);
+qContainer.appendChild(scoreTally);
 
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
@@ -229,16 +229,15 @@ function selectAnswer(selectedButton) {
 
 //*Function to display user Score
 function endQuiz() {
-  qContainer.classList.add("hide");
+  quizApp.classList.add("hide");
   nextButton.classList.add("hide");
 
   scoreTally.classList.remove("hide");
-  scoreTally.textContent = 
-  `<h2>Quiz Completed!!!</h2>
+  scoreTally.innerHTML = `
+  <h2>Quiz Completed!!!</h2>
+  <br>
   <p> Well done for completing it, brother! You scored ${score} out of ${questions.length}</p>
-  <button onclick="restartQuiz()">Back to the nWo!</button>`;
-  scoreTally.classList.add("score");
-  quizApp.appendChild(scoreTally);
+  <button onclick="restartQuiz()">Back to the nWo!</button>
+  `;
+  qContainer.appendChild(scoreTally);
 } 
-
-//*Figure out why scoreTally text content is not visible
