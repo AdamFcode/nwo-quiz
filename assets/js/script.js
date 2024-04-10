@@ -5,7 +5,13 @@ const wrestlerName = document.getElementById('wrestler-name')
 const currentQuestion = document.getElementById('question-display');
 const answerButtons = document.getElementById('answer-btns');
 const nextButton = document.getElementById('next-btn');
-const startButton = document.getElementById('start-btn')
+const startButton = document.getElementById('start-btn');
+const quizApp = document.getElementById('quiz-app');
+const scoreTally = document.createElement('div');
+
+scoreTally.setAttribute('id', 'score');
+scoreTally.classList.add('score', 'hide');
+quizApp.appendChild(scoreTally);
 
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
