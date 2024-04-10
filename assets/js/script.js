@@ -202,6 +202,8 @@ function selectAnswer(selectedButton) {
   
     if (questions.length > currentQuestionIndex + 1) {
       nextButton.classList.remove("hide");
+    } else {
+      endQuiz();
     }}
 
     //* Function to detect next button click and progress Quiz
@@ -225,3 +227,18 @@ function selectAnswer(selectedButton) {
     }
   }
 
+//*Function to display user Score
+function endQuiz() {
+  qContainer.classList.add("hide");
+  nextButton.classList.add("hide");
+
+  scoreTally.classList.remove("hide");
+  scoreTally.textContent = 
+  `<h2>Quiz Completed!!!</h2>
+  <p> Well done for completing it, brother! You scored ${score} out of ${questions.length}</p>
+  <button onclick="restartQuiz()">Back to the nWo!</button>`;
+  scoreTally.classList.add("score");
+  quizApp.appendChild(scoreTally);
+} 
+
+//*Figure out why scoreTally text content is not visible
