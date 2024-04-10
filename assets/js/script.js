@@ -183,36 +183,3 @@ function showQuestion(question) {
 });
 }
 
-//*Function for selecting answer
-function selectAnswer(selectedButton) {
-  Array.from(answerButtons.children).forEach(button => {
-    button.disabled = true;
-    setStatusClass (button.dataset.correct);
-  });
-
-  const correct = selectedButton.dataset.correct;
-   setStatusClass (selectedButton, correct);
-
-   if (shuffledQuestions.length > currentQuestionIndex + 1) {
-    nextButton.classList.remove('hide');
-   }
-}
-
-//*Function for providing visual feedback on answer select
-function setStatusClass (element, correct) {
-  clearStatusClass(element);
-  if (correct) {
-    element.classList.add('right');
-  } else {
-    element.classList.add('wrong');
-  }
-}
-
-//*Function to reset visual feedback for next question
-function clearStatusClass(element) {
-  element.classList.remove('right');
-  element.classList.remove('wrong');
-}
-
-//*Use Console to figure out whty above isnt working. classList seems to be the issue
-//*SelectAnswer if function may be causing issue also. Console.
