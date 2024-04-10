@@ -183,3 +183,12 @@ function showQuestion(question) {
 });
 }
 
+//*Function for selecting answer and displaying the next button
+function selectAnswer(selectedButton) {
+  Array.from(answerButtons.children).forEach(button => {
+    button.disabled = true;});
+  
+  
+    if (questions.length > currentQuestionIndex + 1) {
+      nextButton.classList.remove("hide");
+    }}
