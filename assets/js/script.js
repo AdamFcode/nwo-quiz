@@ -237,7 +237,7 @@ function endQuiz() {
   <h2>Quiz Completed!!!</h2>
   <br>
   <p> Well done for completing it, brother! You scored ${score} out of ${questions.length}</p>
-  <button onclick="restartQuiz()">Back to the nWo!</button>
+  <button onclick="restartQuiz()" class="rstrt-btn">Back to the nWo!</button>
   `;
   qContainer.appendChild(scoreTally);
 } 

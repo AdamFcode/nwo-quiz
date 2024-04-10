@@ -19,7 +19,7 @@ body {
 .heading {
     color: white;
     text-align: center;
-    font-family: 'Creepster'; 
+    font-family: 'Creepster';
     font-size: xx-large;
 }
 
@@ -62,7 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    margin:auto;
+    margin: auto;
 }
 
 #quiz-start:hover {
@@ -92,8 +92,8 @@ body {
     font-family: 'Creepster';
     width: 200px;
     border: 2px solid red;
-   padding: 5px;
-   margin-top: 25px;
+    padding: 5px;
+    margin-top: 25px;
 }
 
 .nxt-btn:hover {
@@ -119,8 +119,8 @@ body {
     font-family: 'Creepster';
     width: 200px;
     border: 2px solid red;
-   padding: 5px;
-   margin-top: 25px;
+    padding: 5px;
+    margin-top: 25px;
 }
 
 .btn {
@@ -129,8 +129,18 @@ body {
     font-family: 'Creepster';
     width: 200px;
     border: 2px solid red;
-   padding: 5px;
-   margin-top: 25px;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.rstrt-btn {
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+    padding: 5px;
+    margin-top: 25px;
+
 }
 
 .btn:hover {
@@ -138,6 +148,10 @@ body {
 }
 
 .strt-btn:hover {
+    background-color: red;
+}
+
+.rstrt-btn:hover {
     background-color: red;
 }
 
