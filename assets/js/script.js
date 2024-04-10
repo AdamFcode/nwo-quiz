@@ -169,6 +169,7 @@ function startGame() {
   shuffledQuestions = questions.sort(() => Math.random() - .5);
   currentQuestionIndex = 0;
   qContainer.classList.remove('hide');
+  quizApp.classList.remove("hide");
   showQuestion();
 }
 
@@ -241,3 +242,13 @@ function endQuiz() {
   `;
   qContainer.appendChild(scoreTally);
 } 
+
+//*Function to restart the Quiz
+function restartQuiz() {
+  scoreTally.classList.add("hide");
+  score= 0;
+  currentQuestionIndex = 0;
+  startGame();
+}
+
+//*Figure out why restartQuiz leaves toggled answer buttons for first question
