@@ -212,3 +212,28 @@ body {
     }
 
 }
+
+@media (min-width: 992px) {
+    #headshot {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: -30%;
+        margin-top: -100%;
+    }
+
+    #wrestler-name {
+        font-family: 'Creepster';
+        font-size: xx-large;
+        position: relative;
+        text-align: center;
+        margin-top: 25%;
+    }
+
+    #answer-btns {
+        display: block;
+        position: relative;
+        left: 32%;
+    }
+}
