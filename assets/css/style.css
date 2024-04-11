@@ -189,4 +189,26 @@ body {
         height: 500px;
         margin: auto;
     }
+
+    #wrestler-name {
+        font-family: 'Creepster';
+        font-size: xx-large;
+        position: relative;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    #question-display {
+        font-family: 'Roboto Mono';
+        position: relative;
+        text-align: center;
+        margin-top: -10%;
+    }
+
+    #answer-btns {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
 }
