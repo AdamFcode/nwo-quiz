@@ -249,4 +249,10 @@ body {
     margin-bottom: -30%;
     margin-top: -50%;
 }
+
+#answer-btns {
+    display: block;
+    position: relative;
+    left: 35%;
+}
 }
