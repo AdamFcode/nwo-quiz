@@ -75,7 +75,7 @@ body {
     position: absolute;
     text-align: center;
     left: 50%;
-    top: 50%;
+    top: 95%;
     transform: translate(-50%, -50%);
 }
 
@@ -84,25 +84,22 @@ body {
     font-size: xx-large;
     position: relative;
     text-align: center;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%)
+    margin-bottom: 10%;
 }
 
 #headshot {
     position: relative;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    margin-bottom: -30%;
+    margin-top: -40%;
 }
 
 #question-display {
     font-family: 'Roboto Mono';
     position: relative;
     text-align: center;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%)
 }
 
 .nxt-btn {
