@@ -93,7 +93,6 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: -30%;
-    margin-top: -40%;
 }
 
 #question-display {
@@ -188,6 +187,15 @@ body {
         max-width: 1000px;
         height: 500px;
         margin: auto;
+    }
+
+    #headshot {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: -30%;
+        margin-top: -65%;
     }
 
     #wrestler-name {
