@@ -73,6 +73,7 @@ body {
 #quiz-app {
     color: white;
     position: absolute;
+    text-align: center;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -81,10 +82,27 @@ body {
 #wrestler-name {
     font-family: 'Creepster';
     font-size: xx-large;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#headshot {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
 
 #question-display {
     font-family: 'Roboto Mono';
+    position: relative;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .nxt-btn {
