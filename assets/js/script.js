@@ -8,10 +8,14 @@ const nextButton = document.getElementById('next-btn');
 const startButton = document.getElementById('start-btn');
 const quizApp = document.getElementById('quiz-app');
 const scoreTally = document.createElement('div');
+const nameInput = document.createElement('div');
 
 scoreTally.setAttribute('id', 'score');
 scoreTally.classList.add('score', 'hide');
 qContainer.appendChild(scoreTally);
+nameInput.setAttribute('id', 'username');
+nameInput.classList.add('username', 'hide');
+qContainer.appendChild(nameInput);
 
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
@@ -228,19 +232,41 @@ function selectAnswer(selectedButton) {
     }
   }
 
-//*Function to display user Score
-function endQuiz() {
-  quizApp.classList.add("hide");
-  nextButton.classList.add("hide");
 
+//*Function to request username
+function endQuiz() {
+   quizApp.classList.add("hide");
+  nextButton.classList.add("hide");
+  nameInput.classList.remove("hide");
+
+  nameInput.innerHTML = `
+  <br>
+  <p>Congratulations Brother! Submit your name to the nWo!:</P>
+  <br>
+<form>
+  <label for="username">Username</label>
+  <input type="text" id="username" required autocomplete></input> 
+  <button type="submit" false>Submit</button>
+</form>
+  `;
+
+  nameInput.button.addEventListener("submit", event => {
+    showScore();
+  })
+}
+
+//*Function to display user Score
+function showScore() {
+  nameInput.classList.add("hide");
   scoreTally.classList.remove("hide");
   scoreTally.innerHTML = `
   <h2>Quiz Completed!!!</h2>
   <br>
-  <p> Well done for completing it, brother! You scored ${score} out of ${questions.length}</p>
-  <button onclick="restartQuiz()" class="rstrt-btn">Back to the nWo!</button>
+  <p> Well done for completing it, ${username}! You scored ${score} out of ${questions.length}</p>
+  <button onclick="restartQuiz(event)" class="rstrt-btn" required>Back to the nWo!</button>
   `;
   qContainer.appendChild(scoreTally);
+  
 } 
 
 //*Function to restart the Quiz
@@ -251,4 +277,4 @@ function restartQuiz() {
   startGame();
 }
 
-//*Figure out why restartQuiz leaves toggled answer buttons for first question
+//*Figure out why scoreTally is skipped on submit of username
