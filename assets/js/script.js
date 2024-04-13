@@ -244,8 +244,8 @@ function endQuiz() {
   <p>Congratulations Brother! Submit your name to the nWo!:</P>
   <br>
 <form id="form-submit">
-  <label for="username">Username</label>
-  <input type="text" id="username" required autocomplete></input> 
+  <label for="form-submit">Username</label>
+  <input type="text" id="name" required></input> 
   <button type="submit" false>Submit</button>
 </form>
   `;
@@ -262,6 +262,8 @@ function endQuiz() {
 function showScore() {
   nameInput.classList.add("hide");
   scoreTally.classList.remove("hide");
+  const formName = document.getElementById('name');
+  let username = formName.value;
   scoreTally.innerHTML = `
   <h2>Quiz Completed!!!</h2>
   <br>
