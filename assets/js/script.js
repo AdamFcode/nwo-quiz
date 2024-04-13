@@ -26,10 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //* Questions Array
+//*Wrestler is the name of the current performer in question
+//*Img is the headhsot fot current performer
+//*Question is the short bio of the performer
+//*Answer is the text content of the answer buttons
 
 let questions = [
   {
-    wrestler: "Buff Bagwell",
+    wrestler: "Buff Bagwell", 
     img: "assets/images/buff-bagwell.webp",
     question: "Buff Bagwell is a former five-time WCW Champion who served ten years with World Championship Wrestling. His promising career was hamstringed by a contentious debut in WWE. But was he a member of the nWo?",
     answer: [
@@ -169,20 +173,20 @@ startButton.addEventListener('click', startGame);
 
 //*Function that starts the game
 function startGame() {
-  startButton.classList.add('hide');
-  shuffledQuestions = questions.sort(() => Math.random() - .5);
-  currentQuestionIndex = 0;
-  qContainer.classList.remove('hide');
-  quizApp.classList.remove("hide");
+  startButton.classList.add('hide'); //* Hide the start button
+  shuffledQuestions = questions.sort(() => Math.random() - .5); //*Shuffle the questions array
+  currentQuestionIndex = 0; //*reset question index
+  qContainer.classList.remove('hide'); //*Display the quiz container
+  quizApp.classList.remove("hide"); //* Display the quiz app
   showQuestion();
 }
 
 //*Function to populate current question
-function showQuestion(question) {
+function showQuestion(question) { //*Access questions array and populate the Question
   let q = questions[currentQuestionIndex]
   currentQuestion.textContent = q.question;
   wrestlerName.textContent = q.wrestler;
-  wrestlerImage.querySelector("img").src = q.img;
+  wrestlerImage.querySelector("img").src = q.img; 
   q.answer.forEach(answer => {
     const button = document.createElement('button');
     button.innerText = answer.text;
@@ -253,13 +257,13 @@ function endQuiz() {
   const formSubmit = document.getElementById("form-submit");
 
   formSubmit.addEventListener("submit", event => {
-    event.preventDefault()
+    event.preventDefault() //*Prevent page from auto resetting on form submission
     showScore();
   })
 }
 
 //*Function to display user Score
-function showScore() {
+function showScore() { //*Hide unnecesary elements and target user with their score
   nameInput.classList.add("hide");
   scoreTally.classList.remove("hide");
   const formName = document.getElementById('name');
