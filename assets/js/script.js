@@ -276,10 +276,9 @@ function showScore() {
 
 //*Function to restart the Quiz
 function restartQuiz() {
+  answerButtons.innerHTML = ""; //* Code to clear button content
   scoreTally.classList.add("hide");
   score= 0;
   currentQuestionIndex = 0;
   startGame();
 }
-
-//*Figure out why scoreTally is skipped on submit of username
