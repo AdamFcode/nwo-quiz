@@ -243,14 +243,17 @@ function endQuiz() {
   <br>
   <p>Congratulations Brother! Submit your name to the nWo!:</P>
   <br>
-<form>
+<form id="form-submit">
   <label for="username">Username</label>
   <input type="text" id="username" required autocomplete></input> 
   <button type="submit" false>Submit</button>
 </form>
   `;
 
-  nameInput.button.addEventListener("submit", event => {
+  const formSubmit = document.getElementById("form-submit");
+
+  formSubmit.addEventListener("submit", event => {
+    event.preventDefault()
     showScore();
   })
 }
