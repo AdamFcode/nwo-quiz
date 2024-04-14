@@ -35,7 +35,7 @@ let questions = [
   {
     wrestler: "Buff Bagwell", 
     img: "assets/images/buff-bagwell.webp",
-    question: "Buff Bagwell is a former five-time WCW Champion who served ten years with World Championship Wrestling. His promising career was hamstringed by a contentious debut in WWE. But was he a member of the nWo?",
+    question: "Buff Bagwell is a former five-time WCW Champion who served ten years with World Championship Wrestling. His promising career may have been hamstringed by a contentious debut in WWE, but was he a member of the nWo?",
     answer: [
       { text: 'nWo For Life!', correct: true },
       { text: 'Jabroni!', correct: false }
@@ -44,7 +44,7 @@ let questions = [
   {
     wrestler: "Chris Jericho",
     img: "assets/images/chris-jericho.webp",
-    question: "Lionheart. Y2J. Le Champion. The Ocho. Multiple titles, multiple reigns. Last ever WCW Champion. First ever Undisputed WWF Champion. First ever AEW Champion. Chris Jericho has done it all. But was he a member of the nWo?",
+    question: "Lionheart, Y2J, Le Champion, The Ocho. Multiple titles, multiple reigns; Last ever WCW Champion; First ever Undisputed WWF Champion- First ever AEW Champion. Chris Jericho has done it all. But was he a member of the nWo?",
     answer: [
       { text: 'nWo For Life!', correct: false },
       { text: 'Jabroni!', correct: true }
@@ -89,7 +89,7 @@ let questions = [
   {
     wrestler: "Eric Bischoff",
     img: "assets/images/eric-bischoff.webp",
-    question: "Famed for being the only man to challenge Vince McMahon in the ratings and win (for 83 weeks!), Eric Bischoff is one of the most successful wrestling producers in the history of the business. He was the executive producer of WCW throughout the 90’s, but was he also a member of the nWo?",
+    question: "Famed for being the only man to challenge Vince McMahon in the ratings and win (for 83 weeks!), Eric Bischoff is one of the most successful bookers in the history of the business. He was the executive producer of WCW throughout the 90’s, but was he also a member of the nWo?",
     answer: [
       { text: 'nWo For Life!', correct: true },
       { text: 'Jabroni!', correct: false }
@@ -98,7 +98,7 @@ let questions = [
   {
     wrestler: "Hiroyoshi Tenzan",
     img: "assets/images/hiroyoshi-tenzan.webp",
-    question: "With a title history that boasts multiple IWGP and G1 wins in New Japan Wrestling, both as a single and in a tag, Hiroyoshi Tenzan is one of the most striking brawlers to ever emerge in Japan. But was he a member of the nWo?",
+    question: "With a title history that boasts multiple IWGP and G1 wins in New Japan Wrestling, both as a single and as part of a tag, Hiroyoshi Tenzan is one of the most striking brawlers to ever emerge from Japan. But was he a member of the nWo?",
     answer: [
       { text: 'nWo For Life!', correct: true },
       { text: 'Jabroni!', correct: false }
