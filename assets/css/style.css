@@ -75,7 +75,7 @@ body {
     position: absolute;
     text-align: center;
     left: 50%;
-    top: 95%;
+    top: 100%;
     transform: translate(-50%, -50%);
 }
 
@@ -191,7 +191,19 @@ body {
     color: white;
 }
 
+
 /* Media queries for larger screens */
+@media (min-width: 390px) {
+    #quiz-app {
+        color: white;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+    }
+}
+
 @media (min-width: 768px) {
     #rules-img {
         max-width: 1000px;
@@ -303,13 +315,22 @@ body {
 }
 
 @media (min-width: 1366px) {
-    #headshot {
+#headshot {
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: -30%;
     margin-top: -50%;
+}
+
+#quiz-app {
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
 }
 
 #answer-btns {
@@ -320,13 +341,8 @@ body {
 
 /*Realign next button with answer buttons*/
 .nxt-btn {
-    font-size: 24px;
-    font-family: 'Creepster';
-    width: 200px;
-    border: 2px solid red;
-    padding: 5px;
-    margin-top: 25px;
+    display: block;
     position: relative;
-    left: 230px;
+    left: 35%;
 }
 }
