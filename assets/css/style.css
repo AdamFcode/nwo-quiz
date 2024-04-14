@@ -26,6 +26,8 @@ body {
 .tagline {
     font-family: 'Roboto Mono';
     font-size: small;
+    color: white;
+    text-align: center;
 }
 
 /* Image on Homepage */
