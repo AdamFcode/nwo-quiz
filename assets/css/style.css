@@ -288,7 +288,19 @@ body {
     }
 }
 
-
+@media (min-width: 1024px) {
+    /*Realign next button with answer buttons*/
+.nxt-btn {
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+    padding: 5px;
+    margin-top: 25px;
+    position: relative;
+    left: 163px;
+}
+}
 
 @media (min-width: 1366px) {
     #headshot {
