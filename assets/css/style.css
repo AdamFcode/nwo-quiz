@@ -192,23 +192,21 @@ body {
 }
 
 
-/* Media queries for larger screens */
-@media (min-width: 390px) {
-    #quiz-app {
-        color: white;
-        position: absolute;
-        text-align: center;
-        left: 50%;
-        top: 65%;
-        transform: translate(-50%, -50%);
-    }
-}
-
 @media (min-width: 768px) {
     #rules-img {
         max-width: 1000px;
         height: 500px;
         margin: auto;
+    }
+
+
+    #quiz-app {
+        color: white;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 95%;
+        transform: translate(-50%, -50%);
     }
 
     #headshot {
