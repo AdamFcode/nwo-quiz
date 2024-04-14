@@ -163,21 +163,13 @@ body {
 
 }
 
-.btn:hover {
-    background-color: red;
-}
-
-.strt-btn:hover {
-    background-color: red;
-}
-
-.rstrt-btn:hover {
-    background-color: red;
-}
-
+.btn:hover,
+.strt-btn:hover,
+.rstrt-btn:hover,
 .submit-btn:hover {
     background-color: red;
 }
+
 .hide {
     display: none;
 }
