@@ -271,7 +271,9 @@ function showScore() { //*Hide unnecesary elements and target user with their sc
   scoreTally.innerHTML = `
   <h2>Quiz Completed!!!</h2>
   <br>
-  <p> Well done for completing it, ${username}! You scored ${score} out of ${questions.length}</p>
+  <p> Game over, ${username}! You scored ${score} out of ${questions.length}</p>
+  <br>
+  <p>Click below to try again, brother!</p>
   <button onclick="restartQuiz(event)" class="rstrt-btn" required>Back to the nWo!</button>
   `;
   qContainer.appendChild(scoreTally);
