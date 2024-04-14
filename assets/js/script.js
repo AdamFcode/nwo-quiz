@@ -250,7 +250,7 @@ function endQuiz() {
 <form id="form-submit">
   <label for="form-submit">Username</label>
   <input type="text" id="name" required></input> 
-  <button type="submit" false>Submit</button>
+  <button type="submit" class="submit-btn" false>Submit</button>
 </form>
   `;
 
