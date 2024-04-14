@@ -102,6 +102,7 @@ body {
 }
 
 .nxt-btn {
+    display:block;
     font-size: 24px;
     font-family: 'Creepster';
     width: 200px;
@@ -236,6 +237,18 @@ body {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    /*Realign next button with answer buttons*/
+    .nxt-btn {
+        font-size: 24px;
+        font-family: 'Creepster';
+        width: 200px;
+        border: 2px solid red;
+        padding: 5px;
+        margin-top: 25px;
+        position: relative;
+        left: 3px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -261,6 +274,18 @@ body {
         position: relative;
         left: 32%;
     }
+
+    /*Realign next button with answer buttons*/
+    .nxt-btn {
+        font-size: 24px;
+        font-family: 'Creepster';
+        width: 200px;
+        border: 2px solid red;
+        padding: 5px;
+        margin-top: 25px;
+        position: relative;
+        left: 7px;
+    }
 }
 
 
@@ -279,5 +304,17 @@ body {
     display: block;
     position: relative;
     left: 35%;
+}
+
+/*Realign next button with answer buttons*/
+.nxt-btn {
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+    padding: 5px;
+    margin-top: 25px;
+    position: relative;
+    left: 230px;
 }
 }
