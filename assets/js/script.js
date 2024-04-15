@@ -1,3 +1,6 @@
+//*Added to clear warnings in JSHint as learned through stackoverflow
+/*jshint esversion: 6 */
+
 //*Declared variables for Dom Elements
 const qContainer = document.getElementById('container');
 const wrestlerImage = document.getElementById('headshot');
