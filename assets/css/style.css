@@ -259,7 +259,7 @@ body {
         padding: 5px;
         margin-top: 25px;
         position: relative;
-        left: 3px;
+        left: 25%;
     }
 }
 
@@ -329,7 +329,7 @@ body {
     position: absolute;
     text-align: center;
     left: 50%;
-    top: 60%;
+    top: 95%%;
     transform: translate(-50%, -50%);
 }
 
@@ -345,4 +345,4 @@ body {
     position: relative;
     left: 35%;
 }
-}
+} 
