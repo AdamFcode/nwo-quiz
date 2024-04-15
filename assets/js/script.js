@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let questions = [
   {
-    wrestler: "Buff Bagwell", 
+    wrestler: "Buff Bagwell",
     img: "assets/images/buff-bagwell.webp",
     question: "Buff Bagwell is a former five-time WCW Champion who served ten years with World Championship Wrestling. His promising career may have been hamstringed by a contentious debut in WWE, but was he a member of the nWo?",
     answer: [
@@ -189,60 +189,62 @@ function showQuestion(question) { //*Access questions array and populate the Que
   let q = questions[currentQuestionIndex];
   currentQuestion.textContent = q.question;
   wrestlerName.textContent = q.wrestler;
-  wrestlerImage.querySelector("img").src = q.img; 
+  wrestlerImage.querySelector("img").src = q.img;
   q.answer.forEach(answer => {
     const button = document.createElement('button');
     button.innerText = answer.text;
     button.classList.add('btn');
     if (answer.correct) {
-        button.dataset.correct = answer.correct;
+      button.dataset.correct = answer.correct;
     }
     button.addEventListener('click', () => selectAnswer(button));
     answerButtons.appendChild(button);
-});
+  });
 }
 
 //*Function for selecting answer and displaying the next button
 function selectAnswer(selectedButton) {
   Array.from(answerButtons.children).forEach(button => {
-    button.disabled = true;});
-  
-    const correct = selectedButton.dataset.correct;
-    if (correct)  {
-      score++;
-    }
-  
-    if (questions.length > currentQuestionIndex + 1) {
-      nextButton.classList.remove("hide");
-    } else {
-      endQuiz();
-    }}
+    button.disabled = true;
+  });
 
-    //* Function to detect next button click and progress Quiz
-    nextButton.addEventListener('click', () => {
-      currentQuestionIndex++;
-      nextQuestion();
-    }
-  );
-
-  //*Function to set the next question
-  function nextQuestion() {
-    resetState();
-    showQuestion(shuffledQuestions[currentQuestionIndex]);
+  const correct = selectedButton.dataset.correct;
+  if (correct) {
+    score++;
   }
 
-  //*Function to reset current Question
-  function resetState() {
-    nextButton.classList.add("hide");
-    while (answerButtons.firstChild) {
-      answerButtons.removeChild(answerButtons.firstChild);
-    }
+  if (questions.length > currentQuestionIndex + 1) {
+    nextButton.classList.remove("hide");
+  } else {
+    endQuiz();
   }
+}
+
+//* Function to detect next button click and progress Quiz
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++;
+  nextQuestion();
+}
+);
+
+//*Function to set the next question
+function nextQuestion() {
+  resetState();
+  showQuestion(shuffledQuestions[currentQuestionIndex]);
+}
+
+//*Function to reset current Question
+function resetState() {
+  nextButton.classList.add("hide");
+  while (answerButtons.firstChild) {
+    answerButtons.removeChild(answerButtons.firstChild);
+  }
+}
 
 
 //*Function to request username
 function endQuiz() {
-   quizApp.classList.add("hide");
+  quizApp.classList.add("hide");
   nextButton.classList.add("hide");
   nameInput.classList.remove("hide");
 
@@ -280,14 +282,14 @@ function showScore() { //*Hide unnecesary elements and target user with their sc
   <button onclick="restartQuiz()" class="rstrt-btn" required>Back to the nWo!</button>
   `;
   qContainer.appendChild(scoreTally);
-  
-} 
+
+}
 
 //*Function to restart the Quiz
 function restartQuiz() {
   answerButtons.innerHTML = ""; //* Code to clear button content
   scoreTally.classList.add("hide");
-  score= 0;
+  score = 0;
   currentQuestionIndex = 0;
   startGame();
 }

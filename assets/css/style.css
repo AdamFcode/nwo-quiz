@@ -104,7 +104,7 @@ body {
 }
 
 .nxt-btn {
-    display:block;
+    display: block;
     font-size: 24px;
     font-family: 'Creepster';
     width: 200px;
@@ -301,48 +301,49 @@ body {
 }
 
 @media (min-width: 1024px) {
+
     /*Realign next button with answer buttons*/
-.nxt-btn {
-    font-size: 24px;
-    font-family: 'Creepster';
-    width: 200px;
-    border: 2px solid red;
-    padding: 5px;
-    margin-top: 25px;
-    position: relative;
-    left: 163px;
-}
+    .nxt-btn {
+        font-size: 24px;
+        font-family: 'Creepster';
+        width: 200px;
+        border: 2px solid red;
+        padding: 5px;
+        margin-top: 25px;
+        position: relative;
+        left: 163px;
+    }
 }
 
 @media (min-width: 1366px) {
-#headshot {
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: -30%;
-    margin-top: -50%;
-}
+    #headshot {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: -30%;
+        margin-top: -50%;
+    }
 
-#quiz-app {
-    color: white;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    top: 95%;
-    transform: translate(-50%, -50%);
-}
+    #quiz-app {
+        color: white;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 95%;
+        transform: translate(-50%, -50%);
+    }
 
-#answer-btns {
-    display: block;
-    position: relative;
-    left: 35%;
-}
+    #answer-btns {
+        display: block;
+        position: relative;
+        left: 35%;
+    }
 
-/*Realign next button with answer buttons*/
-.nxt-btn {
-    display: block;
-    position: relative;
-    left: 35%;
+    /*Realign next button with answer buttons*/
+    .nxt-btn {
+        display: block;
+        position: relative;
+        left: 35%;
+    }
 }
-} 
