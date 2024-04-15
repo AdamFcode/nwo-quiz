@@ -4,7 +4,7 @@
 //*Declared variables for Dom Elements
 const qContainer = document.getElementById('container');
 const wrestlerImage = document.getElementById('headshot');
-const wrestlerName = document.getElementById('wrestler-name')
+const wrestlerName = document.getElementById('wrestler-name');
 const currentQuestion = document.getElementById('question-display');
 const answerButtons = document.getElementById('answer-btns');
 const nextButton = document.getElementById('next-btn');
@@ -177,7 +177,7 @@ startButton.addEventListener('click', startGame);
 //*Function that starts the game
 function startGame() {
   startButton.classList.add('hide'); //* Hide the start button
-  shuffledQuestions = questions.sort(() => Math.random() - .5); //*Shuffle the questions array
+  shuffledQuestions = questions.sort(() => Math.random() - 0.5); //*Shuffle the questions array
   currentQuestionIndex = 0; //*reset question index
   qContainer.classList.remove('hide'); //*Display the quiz container
   quizApp.classList.remove("hide"); //* Display the quiz app
@@ -186,7 +186,7 @@ function startGame() {
 
 //*Function to populate current question
 function showQuestion(question) { //*Access questions array and populate the Question
-  let q = questions[currentQuestionIndex]
+  let q = questions[currentQuestionIndex];
   currentQuestion.textContent = q.question;
   wrestlerName.textContent = q.wrestler;
   wrestlerImage.querySelector("img").src = q.img; 
@@ -223,7 +223,7 @@ function selectAnswer(selectedButton) {
       currentQuestionIndex++;
       nextQuestion();
     }
-  )
+  );
 
   //*Function to set the next question
   function nextQuestion() {
@@ -260,9 +260,9 @@ function endQuiz() {
   const formSubmit = document.getElementById("form-submit");
 
   formSubmit.addEventListener("submit", event => {
-    event.preventDefault() //*Prevent page from auto resetting on form submission
+    event.preventDefault(); //*Prevent page from auto resetting on form submission
     showScore();
-  })
+  });
 }
 
 //*Function to display user Score
@@ -277,7 +277,7 @@ function showScore() { //*Hide unnecesary elements and target user with their sc
   <p> Game over, ${username}! You scored ${score} out of ${questions.length}</p>
   <br>
   <p>Click below to try again, brother!</p>
-  <button onclick="restartQuiz(event)" class="rstrt-btn" required>Back to the nWo!</button>
+  <button onclick="restartQuiz()" class="rstrt-btn" required>Back to the nWo!</button>
   `;
   qContainer.appendChild(scoreTally);
   
