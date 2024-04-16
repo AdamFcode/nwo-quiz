@@ -16,7 +16,7 @@ Preparation for the project included researching the nWo stable and its sub-grou
 A simple palette was decided upon after reviewing the aesthetic of the nWo. Generally presented as black and white, the aesthetic was icnoic throughout the 90's and had a massive influence over wider pop culture in America at that time. Red was then selected as a colour to indicate user interactions, a nod to the red ring-gear worn by the Wolfpac, the most popular sub-section of the nWo in WCW.
 
 ### Selected Colour Palette:
-![Colour Palette](assets/readme-images-colour-pal.webp)
+![Colour Palette](assets/readme-images/colour-pal.webp)
 
 # Features
 
