@@ -254,7 +254,7 @@ Both pages were tested on Lighthouse, targeting mobile and desktop. The Quiz pag
 As noted above, during JavaScript testing the function restartQuiz was returning as an unused variable. The function in question is called in the inner-html of a created div and defined as visible below. Due to project deadlines and the late discovery of this issue, the problem could not be solved and has been earmarked for correction in future.
 
 #### Image of restartQuiz code
-![restartQuiz jshint]((assets/readme-images/jshint-problem.webp)
+![restartQuiz jshint](assets/readme-images/jshint-problem.webp)
 
 ### CSS issue
 As noted above, during CSS testing an issue was discovered where certain mobile viewports created a large gap between the heading and the headshot of personas in question. This led to the website appearing "blank" if not scrolled down on certain mobiles. Several media queries were implemented, tested and abandoned in order to target this issue with mixed results. Due to project deadlines and the late discovery of this issue, the problem could not be solved and was earmarked for correction in future.
