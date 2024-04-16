@@ -25,9 +25,9 @@ A simple palette was decided upon after reviewing the aesthetic of the nWo. Gene
 ![Colour Palette](assets/readme-images/colour-pal.webp)
 
 ## Typography
-Creepster, a sans-serif font inspired by gothic imagery, was selected as the font for much of the website as it was the closest in design to the original nWo font, as seen in the logo.
+Creepster, a sans-serif font inspired by gothic imagery, was selected as the font for titles across the website as it was the closest in design to the original nWo font, as seen in the logo.
 
-Roboto Mono, another sans-serif font, was chosen for smaller pieces of text in order to maintain legibility against the black background without having to increase the font-size.
+Roboto Mono, another sans-serif font, was chosen for larger pieces of text in order to maintain legibility against the black background without having to increase the font-size.
 
 ## Wireframes
 The final presentation of the website mostly matches the wireframes that were mocked up prior to coding. The main difference is in the score tally area. It was decided during the coding process to provide the user with their total score after the quiz had concluded and a username was provided by the user.
