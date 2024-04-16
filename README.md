@@ -85,10 +85,10 @@ On load, the quiz page greets user with the same heading as before and a button 
 Each question of the quiz provides the user with the following: an image of the persona in question, the name of the persona, a brief summary of their accomplishments and a selection of two answers.
 
 ### Image of Quiz on Desktop
-![Quiz on Desktop](assets/readme-images/quiz-desktop)
+![Quiz on Desktop](assets/readme-images/quiz-desktop.webp)
 
 ### Image of Quiz on Mobile
-![Quiz on Mobile](assets/readme-images/quiz-mobile)
+![Quiz on Mobile](assets/readme-images/quiz-mobile.webp)
 
 ## Question Subject
 The subject of each question is an individual involved with wrestling between the mid-90's and early 00's as this was the time period in which the nWo and its subsidiaries were operational. 
