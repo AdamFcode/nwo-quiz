@@ -162,10 +162,14 @@ Once the quiz has been completed and a username entered, the user is shown a Gam
 
 # Abandoned Features
 
-## Answer Feedback
-
 ## Running Score Tally
 It was decided during development to not track the score on screen while the user plays for two primary reasons. One was to deter users from being surprised by an answer and checking the facts on another website, which may cause the user to forget or lose interest in the quiz. The second reason was to avoid players "learning" the answers as they play and instead to promote the user to cognitively reconsider their answer.
+
+## Answer Feedback
+Abandoned for similar reasons to the running score tally, answer feedback also provided a unique issue in the colour scheme of the website. Attempts were made to have correct answers turn "green" and incorrect answers turn "red". The introduction of green to the website would harm the aesthetic, particularly if one is familiar with how the nWo was presented in terms of colour. It also would lead to a clash between incorrect answers and buttons which are being hovered over, providing a jarring experience to users when selecting their answers, as once red became associated with "incorrect" it could cause hesitation when selecting an answer.
+
+## Question Timer
+A timer was considered once initial coding began in order to make the most of javascript in the project. However, this was quickly abandoned as it was felt it would deter users from truly considering their answers and exploring their knowledge of the nWo. As the provided answers are essentially "yes" or "no", the utility of a timer was also brought into question; beyond the binary choice of yes or no, there ware no further considerations that would play upon the increased pressure of a timer and provide further stimulation to the user.
  
 # Features Earmarked for Future Implementation
 
