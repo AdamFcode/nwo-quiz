@@ -98,7 +98,7 @@ Headshots were chosen for the persona images as they provide uniformity between 
 Wrestling personas tend to work under different names throughout their careers. With this in consideration, the names selected were either those most associated with the persona or the name they explicitly used during the relevant era. In some cases nicknames have also been provided, though only when the nickname is generally acknowledged as part of that personas professional name, e.g Jushin "Thunder" Liger.
 
 ### Image of Question Subject
-![Question Subject](assets/readme-images/image-name)
+![Question Subject](assets/readme-images/image-name.webp)
 
 ## Question Text
 The text of each question was written as a brief, often tongue-in-cheek description of the persona. Certain terms were used in order to appeal to wrestling fans. The question text is also intended to promote further interest in the persona. Should the user be unfamiliar with the question subject, hopefully the description ignites curiosity and sends the user seeking further information
