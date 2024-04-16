@@ -121,7 +121,33 @@ The user is presented with two buttons as potential answers, the text content of
 ### Image of Answer Buttons Selected
 ![Answer Buttons Selected](assets/readme-images/answer-buttons-selected.webp)
 
-### 
+## Next Button
+Upon selecting an answer, a "next" button materialises to allow the user to select the next question. This button is designed to appear until all questions have been answered. It is styled similarly to prior buttons, with a red splash appearing should the user hover over the button. The next button pulls a random question from the array and continues to do so until all questions have been answered.
+
+### Image of Next Button
+![Next Button](assets/readme-images/next-button.webp)
+
+### Image of Next Button on Hover
+![Next Button Hover](assets/readme-images/next-button-selected.webp)
+
+## Username Entry
+Upon cycling through all of the questions, the user is presented with a congratulations screen once again using the tone of the original nWo members. A field is provided to enter the users name and a button to submit the same. The submit button will not work unless the field has been filled out with some text. The submit button follows the same style precedent of prior buttons, complete with a red splash on hover.
+
+### Image of Username Entry on Desktop
+![Username Desktop](assets/readme-images/username-desktop.webp)
+
+### Image of Username Entry on Mobile
+![Username Mobile](assets/readme-images/username-mobile.webp)
+
+### Image of Username Entry on Hover
+![Username on Hover](assets/readme-images/username-hover.webp)
+
+### Image of Username Entry with Unfilled Field
+![Username Unfilled](assets/readme-images/username-unfilled.webp)
+
+# Future Implementation
+
+
 
 
 # Testing
