@@ -12,15 +12,42 @@ Selection of the subject matter was two-fold; wrestling is currently experiencin
 # Preparation
 Preparation for the project included researching the nWo stable and its sub-groups in order to provide as varied a question pool as possible. The general aesthetic of the stable was also noted for style considerations, as well as canvassing wrestling fans in order to select appropriate wrestling personas and avoid constructing a quiz that was either too easy or too difficult.
 
+## User Stories
+* As a user, I wish to test my knowledge of the nWo with an accurate quiz.
+* As a user, I want to seamlessly navigate the website without issue.
+* As a user, I want a consistent experience that evokes the essence of the subject matter.
+* As a user, I want to be informed of how many questions I got correct.
+
 ## Colour Palette
 A simple palette was decided upon after reviewing the aesthetic of the nWo. Generally presented as black and white, the aesthetic was icnoic throughout the 90's and had a massive influence over wider pop culture in America at that time. Red was then selected as a colour to indicate user interactions, a nod to the red ring-gear worn by the Wolfpac, the most popular sub-section of the nWo in WCW.
 
 ### Selected Colour Palette:
 ![Colour Palette](assets/readme-images/colour-pal.webp)
 
+## Wireframes
+The final presentation of the website mostly matches the wireframes that were mocked up prior to coding. The main difference is in the score tally area. It was decided during the coding process to provide the user with their total score after the quiz had concluded and a username was provided by the user.
+
+### Image of the Wireframes
+![Wireframes](assets/readme-images/wireframes.webp)
+
 # Features
+## Heading
+The classic nWo logo was selected as the heading. Clicking on the logo returns the user to the homepage of the website. Below the logo is the title of the quiz, 'Were They in the nWo?', followed by a tagline that uses wrestling jargon("marks") and nWo-specific merchandising("the bad guys") in order to appeal to wrestling fans.
 
+### Picture of Heading on Desktop
+![Heading Desktop](assets/readme-images/heading-desktop.webp)
 
+### Picture of Heading on Mobile
+![Heading Mobile](assets/readme-images/heading-mobile.webp)
+
+## Hero Image
+A cartoon depiction of the core three members of the nWo was selected as the hero image. Kevin Nash, Scott Hall and Hulk Hogan were selected as it was decided early on not to feature the three in the quiz itself as they are synonymous with the stable.
+
+### Picture of Hero Image on Desktop
+![Hero Image Desktop](assets/readme-images/hero-desktop.webp)
+
+### Picture of Hero Image on Mobile
+![Hero Image Mobile](assets/readme-images/hero-mobile.webp)
 
 # Testing
 
