@@ -1,5 +1,5 @@
 # Were They in the nWo?
-Were They in the nWo is a website designed to provide an interactive means of basking in some classic 90's nostalgia. Dedicated to the group that "made wrestling cool", the intention of the site is to provide a fun quiz regarding membership of the eponymous stable to users.
+Were They in the nWo is a website intended to provide an interactive means of basking in some classic 90's nostalgia. Dedicated to the group that "made wrestling cool", the intention of the site is to provide a fun quiz regarding membership of the eponymous stable to users.
 
 The website is designed to provide the user with a profile and headshot of a persona from this wrestling era and then request that they confirm or deny whether that persona was a member of the nWo. A simple quiz such as this was selected for the foundation of the website as it not only services the niche interest of wrestling fans but also targets thier historical knowledge of same. 
 
@@ -16,7 +16,7 @@ Preparation for the project included researching the nWo stable and its sub-grou
 A simple palette was decided upon after reviewing the aesthetic of the nWo. Generally presented as black and white, the aesthetic was icnoic throughout the 90's and had a massive influence over wider pop culture in America at that time. Red was then selected as a colour to indicate user interactions, a nod to the red ring-gear worn by the Wolfpac, the most popular sub-section of the nWo in WCW.
 
 ### Selected Colour Palette:
-![Colour Palette]
+![Colour Palette](assets/readme-images-colour-pal.webp)
 
 # Features
 
