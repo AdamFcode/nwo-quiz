@@ -24,6 +24,11 @@ A simple palette was decided upon after reviewing the aesthetic of the nWo. Gene
 ### Selected Colour Palette:
 ![Colour Palette](assets/readme-images/colour-pal.webp)
 
+## Typography
+Creepster, a sans-serif font inspired by gothic imagery, was selected as the font for much of the website as it was the closest in design to the original nWo font, as seen in the logo.
+
+Roboto Mono, another sans-serif font, was chosen for smaller pieces of text in order to maintain legibility against the black background without having to increase the font-size.
+
 ## Wireframes
 The final presentation of the website mostly matches the wireframes that were mocked up prior to coding. The main difference is in the score tally area. It was decided during the coding process to provide the user with their total score after the quiz had concluded and a username was provided by the user.
 
@@ -32,7 +37,7 @@ The final presentation of the website mostly matches the wireframes that were mo
 
 # Features
 ## Heading
-The classic nWo logo was selected as the heading. Clicking on the logo returns the user to the homepage of the website. Below the logo is the title of the quiz, 'Were They in the nWo?', followed by a tagline that uses wrestling jargon("marks") and nWo-specific merchandising("the bad guys") in order to appeal to wrestling fans.
+The classic nWo logo was selected as the heading. Clicking on the logo returns the user to the homepage of the website. Below the logo is the title of the quiz, 'Were They in the nWo?', followed by a tagline that uses standard wrestling jargon("marks") and nWo-specific jargon("the bad guys") in order to appeal to wrestling fans.
 
 ### Picture of Heading on Desktop
 ![Heading Desktop](assets/readme-images/heading-desktop.webp)
@@ -48,6 +53,76 @@ A cartoon depiction of the core three members of the nWo was selected as the her
 
 ### Picture of Hero Image on Mobile
 ![Hero Image Mobile](assets/readme-images/hero-mobile.webp)
+
+## Ruleset
+The ruleset for the quiz features below the hero image and is written to once again use wrestling and nWo-specific jargon. Here, the user is also notified of the interactivity of the logo at the top of the screen. A simple, terse approach was selected in order to not chase away those looking for a quick, casual experience. 
+
+### Picture of Ruleset on Desktop
+![Ruleset Desktop](assets/readme-images/rulesdiv-desktop/webp)
+
+### Picture of Ruleset on Mobile
+![Ruleset Mobile](assets/readme-images/rulesdiv-mobile/webp)
+
+## Quiz Button
+The button to take users to the quiz page was styled similarly to the aesthetic of the rest of the page. Upon hovering over the button with the cursor, users are treated to a red background in order to pay tribute to the nWo Wolfpac and to also provide a splash of bold colour. The text content of "Too Sweet" was selected as it was the calling card of nWo members when greeting one another. It also allowed the text content of the button to continue on from the ruleset. On selecting this button, the user is brought to the quiz.html page.
+
+### Image of Quiz Button
+![Quiz Button](assets/readme-images/quiz-button.webp)
+
+### Image of Quiz Button on Hover
+![Quiz Button on Hover](assets/readme-images/quiz-button-hover.webp)
+
+## Start Button
+On load, the quiz page greets user with the same heading as before and a button to start to quiz. This button is styled similarly to the quiz button and also turns red on hover. Selecting this button provides the user with the quiz container in order to play the game.
+
+### Image of Start Button
+![Start Button](assets/readme-images/start-button.webp)
+
+### Image of Start Button on Hover
+![Start Button on Hover](assets/readme-images/start-button-hover.webp)
+
+## The Quiz
+Each question of the quiz provides the user with the following: an image of the persona in question, the name of the persona, a brief summary of their accomplishments and a selection of two answers.
+
+### Image of Quiz on Desktop
+![Quiz on Desktop](assets/readme-images/quiz-desktop)
+
+### Image of Quiz on Mobile
+![Quiz on Mobile](assets/readme-images/quiz-mobile)
+
+## Question Subject
+The subject of each question is an individual involved with wrestling between the mid-90's and early 00's as this was the time period in which the nWo and its subsidiaries were operational. 
+
+Headshots were chosen for the persona images as they provide uniformity between examples and allows the user to see a clear, unobstructed view of the personas face.
+
+Wrestling personas tend to work under different names throughout their careers. With this in consideration, the names selected were either those most associated with the persona or the name they explicitly used during the relevant era. In some cases nicknames have also been provided, though only when the nickname is generally acknowledged as part of that personas professional name, e.g Jushin "Thunder" Liger.
+
+### Image of Question Subject
+![Question Subject](assets/readme-images/image-name)
+
+## Question Text
+The text of each question was written as a brief, often tongue-in-cheek description of the persona. Certain terms were used in order to appeal to wrestling fans. The question text is also intended to promote further interest in the persona. Should the user be unfamiliar with the question subject, hopefully the description ignites curiosity and sends the user seeking further information
+
+### Image of Question Text on Desktop
+![Question on Desktop](assets/readme-images/question-desktop.webp)
+
+### Image of Question Text on Mobile
+![Question on Mobile](assets/readme-images/question-mobile.webp)
+
+## Answer Buttons
+The user is presented with two buttons as potential answers, the text content of which is static between questions. This was decided upon as the question itself has only one of two possible answers; either they were a member of the stable or they were not. It also allowed usage of wrestling jargon and emulated the tone of the most famous members. These buttons are styled similarly to the prior buttons and also flash red upon being hovered over. Once a button is selected, both become "greyed out" and can no longer be toggled.
+
+### Image of Answer Buttons
+![Answer Buttons](assets/readme-images/answer-buttons.webp)
+
+### Image of Answer Buttons on Hover
+![Answer Buttons on Hover](assets/readme-images/answer-buttons-hover.webp)
+
+### Image of Answer Buttons Selected
+![Answer Buttons Selected](assets/readme-images/answer-buttons-selected.webp)
+
+### 
+
 
 # Testing
 
