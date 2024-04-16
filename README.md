@@ -262,12 +262,11 @@ As noted above, during CSS testing an issue was discovered where certain mobile 
 
 # Deployment
 The deployment was conducted on github using the following steps:
-*On the repository screen select settings.
-*Select pages from the menu on the left.
-*Select source and choose to deploy from branch.
-*Set branch to main-root.
-*Click save which provides the deployment link, available at the top of this readme.
-*
+* On the repository screen select settings.
+* Select pages from the menu on the left.
+* Select source and choose to deploy from branch.
+* Set branch to main-root.
+* Click save which provides the deployment link, available at the top of this readme.
 
 # Credits
 ## Written Reference Sources
@@ -292,9 +291,9 @@ The learning materials, video tutorials and modules provided by codeinstitute we
 The project was initially started on a different repository where early errors in the code resulted in sweeping issues later in the coding process. Due to this, the commits on the project became bloated, confusing and inconcise. The decision was made to abandon the repository and salvage the code that worked and use it in a new repository where the coding process could be more accurately documented and any confusion with the code avoided. The repository in question is on the same github page and is available to view here: https://github.com/AdamFcode/Were-They-nWo 
 
 ## Images
-*The nWo logo used in the heading provided by ProWrestlingRenders on Deviantart
-*The splash image of Hogan, Nash and Hall in ring provided by ZZoMBiEXIII on Deviantart
-*All Wrestler images were sourced from the Ruthless Aggression Mod for Total Extreme Wrestling 2020. Originally designed by Idol for Total Extreme Wrestling 2016, the edition used for this project was adapted and updated by MrVillain.
+* The nWo logo used in the heading provided by ProWrestlingRenders on Deviantart
+* The splash image of Hogan, Nash and Hall in ring provided by ZZoMBiEXIII on Deviantart
+* All Wrestler images were sourced from the Ruthless Aggression Mod for Total Extreme Wrestling 2020. Originally designed by Idol for Total Extreme Wrestling 2016, the edition used for this project was adapted and updated by MrVillain.
 
 ## Text Content
 The text content of the ruleset, headings, questions and all other content was written by the programmer. The readme was spellchecked using Microsoft Word.
