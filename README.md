@@ -1,7 +1,7 @@
 # Were They in the nWo?
 Were They in the nWo is a website intended to provide an interactive means of basking in some classic 90's nostalgia. Dedicated to the group that "made wrestling cool", the intention of the site is to provide a fun quiz regarding membership of the eponymous stable to users.
 
-The website is designed to provide the user with a profile and headshot of a persona from this wrestling era and then request that they confirm or deny whether that persona was a member of the nWo. A simple quiz such as this was selected for the foundation of the website as it not only services the niche interest of wrestling fans but also targets thier historical knowledge of the industry. 
+The website is designed to provide the user with a profile and headshot of a persona from this wrestling era and then request that they confirm or deny whether that persona was a member of the nWo. A simple quiz such as this was selected for the foundation of the website as it not only services the niche interest of wrestling fans but also targets their historical knowledge of the industry. 
 
 Selection of the subject matter was two-fold; wrestling is currently experiencing a renaissance. New management in WWE has reignited the wrestling industry and many lapsed fans are returning to the product, as indicated by internet traffic and ticket sales. This makes the timing of such a website quite advantageous. Furthermore, many returning fans consider the era of the nWo to be the "peak" of wrestling as a whole. The intention of the website is to capitalise on this nostalgia by drawing traffic and to eventually grow the site to feature other features that hopefully convince new users to visit regularly.
 
@@ -19,7 +19,7 @@ Preparation for the project included researching the nWo stable and its sub-grou
 * As a user, I want to be informed of how many questions I got correct.
 
 ## Colour Palette
-A simple palette was decided upon after reviewing the aesthetic of the nWo. Generally presented as black and white, the aesthetic was icnoic throughout the 90's and had a massive influence over wider pop culture in America at that time. Red was then selected as a colour to indicate user interactions, a nod to the red ring-gear worn by the Wolfpac, the most popular sub-section of the nWo in WCW.
+A simple palette was decided upon after reviewing the aesthetic of the nWo. Generally presented as black and white, the aesthetic was iconic throughout the 90's and had a massive influence over wider pop culture in America at that time. Red was then selected as a colour to indicate user interactions, a nod to the red ring-gear worn by the Wolfpac, the most popular sub-section of the nWo in WCW.
 
 ### Selected Colour Palette:
 ![Colour Palette](assets/readme-images/colour-pal.webp)
@@ -37,7 +37,7 @@ The final presentation of the website mostly matches the wireframes that were mo
 
 # Features
 ## Heading
-The classic nWo logo was selected as the heading. Clicking on the logo returns the user to the homepage of the website. Below the logo is the title of the quiz, 'Were They in the nWo?', followed by a tagline that uses standard wrestling jargon("marks") and nWo-specific jargon("the bad guys") in order to appeal to wrestling fans.
+The classic nWo logo was selected as the heading. Clicking on the logo returns the user to the homepage of the website. Below the logo is the title of the quiz, 'Were They in the nWo?', followed by a tagline that uses standard wrestling jargon ("marks") and nWo-specific jargon ("the bad guys") in order to appeal to wrestling fans.
 
 ### Picture of Heading on Desktop
 ![Heading Desktop](assets/readme-images/heading-desktop.webp)
@@ -95,7 +95,7 @@ The subject of each question is an individual involved with wrestling between th
 
 Headshots were chosen for the persona images as they provide uniformity between examples and allows the user to see a clear, unobstructed view of the personas face.
 
-Wrestling personas tend to work under different names throughout their careers. With this in consideration, the names selected were either those most associated with the persona or the name they explicitly used during the relevant era. In some cases nicknames have also been provided, though only when the nickname is generally acknowledged as part of that personas professional name, e.g Jushin "Thunder" Liger.
+Wrestling personas tend to work under different names throughout their careers. With this in consideration, the names selected were either those most associated with the persona or the name they explicitly used during the relevant era. In some cases, nicknames have also been provided, though only when the nickname is generally acknowledged as part of that personas professional name, e.g. Jushin "Thunder" Liger.
 
 ### Image of Question Subject
 ![Question Subject](assets/readme-images/image-name.webp)
@@ -169,31 +169,135 @@ It was decided during development to not track the score on screen while the use
 Abandoned for similar reasons to the running score tally, answer feedback also provided a unique issue in the colour scheme of the website. Attempts were made to have correct answers turn "green" and incorrect answers turn "red". The introduction of green to the website would harm the aesthetic, particularly if one is familiar with how the nWo was presented in terms of colour. It also would lead to a clash between incorrect answers and buttons which are being hovered over, providing a jarring experience to users when selecting their answers, as once red became associated with "incorrect" it could cause hesitation when selecting an answer.
 
 ## Question Timer
-A timer was considered once initial coding began in order to make the most of javascript in the project. However, this was quickly abandoned as it was felt it would deter users from truly considering their answers and exploring their knowledge of the nWo. As the provided answers are essentially "yes" or "no", the utility of a timer was also brought into question; beyond the binary choice of yes or no, there ware no further considerations that would play upon the increased pressure of a timer and provide further stimulation to the user.
+A timer was considered once initial coding began in order to make the most of JavaScript in the project. However, this was quickly abandoned as it was felt it would deter users from truly considering their answers and exploring their knowledge of the nWo. As the provided answers are essentially "yes" or "no", the utility of a timer was also brought into question; beyond the binary choice of yes or no, there were no further considerations that would interact with the increased pressure of a timer and provide further stimulation to the user.
  
 # Features Earmarked for Future Implementation
+The following features are intended to be implemented at a future date.
 
 ## Larger Question Pool
+A larger selection of personas to be added, complete with headshots and brief bios, allowing for users to select their total number of questions and to ensure that there is enough content to fill it. This could also allow a selection of questions targeting one specific incarnation of the nWo, e.g. nWo Wolfpac or nWo Japan.
 
 ## Leaderboard
+The integration of a leaderboard to track user scores and to provide a sense of competition among users. An increased question pool would certainly be required so as to provide large enough variation between user scores. A leaderboard that combines scores across different quizzes on the site would also be included. 
 
 ## Expanded Biographies
+A section that provides expanded biographies of the personas in the question pool to be added, complete with links to relevant websites. The need for this section arises from the limited space available when posing the question to the user. If the question featured an expanded biography the quiz itself would become quite tedious. For those interested, the planned section would provide an outlet for their curiosity.
 
 ## Audio Integration
+The nWo had iconic theme music. The opening guitar riff of the theme has reached cult status within wrestling circles and is often used in fan-footage, memes and documentaries. Implementation of just this riff playing upon user interaction is under consideration, with the option to deactivate the feature if the user wishes.
 
 ## Ability to Post Score to Social Media
+An integrated share function to post scores to social media is to be implemented, in order to increase traffic and engagement. By developing a sense of competition off platform the quiz will attract more users from those platforms. Presumably the users who share their score will have contacts interested in wrestling which serves as a perfect means of advertising to the target audience.
 
 ## More Quizzes
-
-
-
+Further quizzes to be implemented in order to present a wider variation to users and to provide content for other proposed features. These quizzes would target infamous moments, turns and dates in the nWo's history.
 
 # Testing
+A pool of users was invited to test the project across several devices and report any issues. 
+The code was observed through the Google Chrome Developer Tools in order to troubleshoot and test alternative code.
 
+## Validator Testing
+### HTML
+The HTML was tested on the official W3C Validator and showed minor syntax errors. These were corrected and further tests yielded no errors.
+
+#### Image of HTML test on index.html
+![HTML Index Test](assets/readme-images/index-validator.webp)
+
+#### Image of HTML test on quiz.html
+![HTML Quiz Test](assets/readme-images/quiz-validator.webp)
+
+### CSS
+The CSS was tested on the official Jigsaw Validator and showed no errors.
+
+#### Image of CSS test on index.html
+![CSS Index Test](assets/readme-images/index-jigsaw.webp)
+
+#### Image of CSS test on quiz.html
+![CSS Quiz Test](assets/readme-images/quiz-jigsaw.webp)
+
+### JavaScript
+The JavaScript was tested on jshint and returned several minor errors and one unresolved issue, documented under bugs. The minor issues were corrected.
+
+#### Image of jshint test on script.js
+![jshint Image](assets/readme-images/jshint-metrics.webp)
+*Note the unused variable. Issue documented under bugs.
+
+### Responsiveness
+The responsivity of both pages was tested on www.responsivedesignchecker.com and though mostly satisfactory, this returned one major issue documented below under bugs.
+
+### Accessibility 
+The accessibility of both pages was tested on www.weave.webaim.org and revealed that the logo on each page lacked an aria-label which was then added.
+
+#### Image of Wave test on Index
+![Wave Test Index](assets/readme-images/wave-index.webp)
+
+#### Image of Wave test on Quiz
+![Wave Test Quiz](assets/readme-images/wave-quiz.webp)
+
+### Lighthouse Testing
+Both pages were tested on Lighthouse, targeting mobile and desktop. The Quiz page returned green scores across both tests. Initially, the performance score of the Homepage was unsatisfactory. The issue was identified as a delay in loading the fonts. A preconnect was added to the HTML for googlefonts and for gstatic which resolved the issue and returned green scores.
+
+#### Image of Lighthouse Test on index.html for Desktop
+![Lighthouse Index Desktop](assets/readme-images/index-lighthouse-desktop.webp)
+
+#### Image of Lighthouse Test on index.html for Mobile
+![Lighthouse Index Mobile](assets/readme-images/index-lighthouse-mobile.webp)
+
+#### Image of Lighthouse Test on quiz.html for Desktop
+![Lighthouse Quiz Desktop](assets/readme-images/quiz-lighthouse-desktop.webp)
+
+#### Image of Lighthouse Test on quiz.html for Desktop
+![Lighthouse Quiz Mobile](assets/readme-images/quiz-lighthouse-mobile.webp)
+
+## Bugs
+### JavaScript Issue
+As noted above, during JavaScript testing the function restartQuiz was returning as an unused variable. The function in question is called in the inner-html of a created div and defined as visible below. Due to project deadlines and the late discovery of this issue, the problem could not be solved and has been earmarked for correction in future.
+
+#### Image of restartQuiz code
+![restartQuiz jshint]((assets/readme-images/jshint-problem.webp)
+
+### CSS issue
+As noted above, during CSS testing an issue was discovered where certain mobile viewports created a large gap between the heading and the headshot of personas in question. This led to the website appearing "blank" if not scrolled down on certain mobiles. Several media queries were implemented, tested and abandoned in order to target this issue with mixed results. Due to project deadlines and the late discovery of this issue, the problem could not be solved and was earmarked for correction in future.
 
 
 # Deployment
-
-
+The deployment was conducted on github using the following steps:
+*On the repository screen select settings.
+*Select pages from the menu on the left.
+*Select source and choose to deploy from branch.
+*Set branch to main-root.
+*Click save which provides the deployment link, available at the top of this readme.
+*
 
 # Credits
+## Written Reference Sources
+The listed websites were consulted regularly during this project.
+* https://www.w3schools.com/
+* https://stackoverflow.com/
+* https://www.shecodes.io/
+* https://www.hackr.io/
+
+## Video Reference Sources
+The listed YouTube channels were consulted regularly during the project
+* Keith Paterson: https://www.youtube.com/@kpatelearn
+* James Q Quick: https://www.youtube.com/@JamesQQuick
+* Great Stack: https://www.youtube.com/@GreatStackDev
+* Brian Design: https://www.youtube.com/@briandesign
+
+## Learning Materials
+The learning materials, video tutorials and modules provided by codeinstitute were consulted regularly during the project.
+
+
+## Abandoned Repository
+The project was initially started on a different repository where early errors in the code resulted in sweeping issues later in the coding process. Due to this, the commits on the project became bloated, confusing and inconcise. The decision was made to abandon the repository and salvage the code that worked and use it in a new repository where the coding process could be more accurately documented and any confusion with the code avoided. The repository in question is on the same github page and is available to view here: https://github.com/AdamFcode/Were-They-nWo 
+
+## Images
+*The nWo logo used in the heading provided by ProWrestlingRenders on Deviantart
+*The splash image of Hogan, Nash and Hall in ring provided by ZZoMBiEXIII on Deviantart
+*All Wrestler images were sourced from the Ruthless Aggression Mod for Total Extreme Wrestling 2020. Originally designed by Idol for Total Extreme Wrestling 2016, the edition used for this project was adapted and updated by MrVillain.
+
+## Text Content
+The text content of the ruleset, headings, questions and all other content was written by the programmer. The readme was spellchecked using Microsoft Word.
+
+# Acknowledgement
+With appreciation for aid lent by the project mentor and class CI provided by codeinstitue as well as fellow students in the slack channel.
