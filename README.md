@@ -146,7 +146,7 @@ Upon cycling through all of the questions, the user is presented with a congratu
 ![Username Unfilled](assets/readme-images/username-unfilled.webp)
 
 ## Quiz Complete
-Once the quiz has been completed and a username entered, the user is shown a Game Over screen which targets the provided username and provides a final score to the user. It was decided during development to not track the score as users play for two primary reasons. One was to deter users from being surprised by an answer and checking the facts on another website which may cause the user to forget or lose interest in the quiz. The second reason was to avoid players "learning" the answers as they play and instead to promote reconsideration of the users knowledge. A final button, styled similarly to the prior buttons with the same splash of red upon hovering, is presented to the user, allowing them to click and restart the quiz in a cleared state.
+Once the quiz has been completed and a username entered, the user is shown a Game Over screen which targets the provided username and provides a final score to the user. A final button, styled similarly to the prior buttons with the same splash of red upon hovering, is presented to the user, allowing them to click and restart the quiz in a cleared state.
 
 ### Image of Quiz Complete on Desktop
 ![Quiz Complete Desktop](assets/readme-images/complete-desktop.webp)
@@ -160,7 +160,24 @@ Once the quiz has been completed and a username entered, the user is shown a Gam
 ### Image of Restart Button on Hover
 ![Restart Button Hover](assets/readme-images/restart-button-hover.webp)
 
+# Abandoned Features
+
+## Answer Feedback
+
+## Running Score Tally
+It was decided during development to not track the score as the user plays for two primary reasons. One was to deter users from being surprised by an answer and checking the facts on another website, which may cause the user to forget or lose interest in the quiz. The second reason was to avoid players "learning" the answers as they play and instead to promote the user to cognitively reconsider their answer.
+ 
 # Features Earmarked for Future Implementation
+
+## Larger Question Pool
+
+## Leaderboard
+
+## Expanded Biographies
+
+## Audio Integration
+
+## More Quizzes
 
 
 
