@@ -165,7 +165,7 @@ Once the quiz has been completed and a username entered, the user is shown a Gam
 ## Answer Feedback
 
 ## Running Score Tally
-It was decided during development to not track the score as the user plays for two primary reasons. One was to deter users from being surprised by an answer and checking the facts on another website, which may cause the user to forget or lose interest in the quiz. The second reason was to avoid players "learning" the answers as they play and instead to promote the user to cognitively reconsider their answer.
+It was decided during development to not track the score on screen while the user plays for two primary reasons. One was to deter users from being surprised by an answer and checking the facts on another website, which may cause the user to forget or lose interest in the quiz. The second reason was to avoid players "learning" the answers as they play and instead to promote the user to cognitively reconsider their answer.
  
 # Features Earmarked for Future Implementation
 
@@ -176,6 +176,8 @@ It was decided during development to not track the score as the user plays for t
 ## Expanded Biographies
 
 ## Audio Integration
+
+## Ability to Post Score to Social Media
 
 ## More Quizzes
 
