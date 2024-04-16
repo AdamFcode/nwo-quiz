@@ -145,7 +145,22 @@ Upon cycling through all of the questions, the user is presented with a congratu
 ### Image of Username Entry with Unfilled Field
 ![Username Unfilled](assets/readme-images/username-unfilled.webp)
 
-# Future Implementation
+## Quiz Complete
+Once the quiz has been completed and a username entered, the user is shown a Game Over screen which targets the provided username and provides a final score to the user. It was decided during development to not track the score as users play for two primary reasons. One was to deter users from being surprised by an answer and checking the facts on another website which may cause the user to forget or lose interest in the quiz. The second reason was to avoid players "learning" the answers as they play and instead to promote reconsideration of the users knowledge. A final button, styled similarly to the prior buttons with the same splash of red upon hovering, is presented to the user, allowing them to click and restart the quiz in a cleared state.
+
+### Image of Quiz Complete on Desktop
+![Quiz Complete Desktop](assets/readme-images/complete-desktop.webp)
+
+### Image of Quiz Complete on Mobile
+![Quiz Complete Mobile](assets/readme-images/complete-mobile.webp)
+
+### Image of Restart Button
+![Restart Button](assets/readme-images/restart-button.webp)
+
+### Image of Restart Button on Hover
+![Restart Button Hover](assets/readme-images/restart-buton-hover.webp)
+
+# Features Earmarked for Future Implementation
 
 
 
