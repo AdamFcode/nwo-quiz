@@ -58,10 +58,10 @@ A cartoon depiction of the core three members of the nWo was selected as the her
 The ruleset for the quiz features below the hero image and is written to once again use wrestling and nWo-specific jargon. Here, the user is also notified of the interactivity of the logo at the top of the screen. A simple, terse approach was selected in order to not chase away those looking for a quick, casual experience. 
 
 ### Picture of Ruleset on Desktop
-![Ruleset Desktop](assets/readme-images/rulesdiv-desktop/webp)
+![Ruleset Desktop](assets/readme-images/rulesdiv-desktop.webp)
 
 ### Picture of Ruleset on Mobile
-![Ruleset Mobile](assets/readme-images/rulesdiv-mobile/webp)
+![Ruleset Mobile](assets/readme-images/rulesdiv-mobile.webp)
 
 ## Quiz Button
 The button to take users to the quiz page was styled similarly to the aesthetic of the rest of the page. Upon hovering over the button with the cursor, users are treated to a red background in order to pay tribute to the nWo Wolfpac and to also provide a splash of bold colour. The text content of "Too Sweet" was selected as it was the calling card of nWo members when greeting one another. It also allowed the text content of the button to continue on from the ruleset. On selecting this button, the user is brought to the quiz.html page.
