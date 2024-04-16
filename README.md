@@ -158,7 +158,7 @@ Once the quiz has been completed and a username entered, the user is shown a Gam
 ![Restart Button](assets/readme-images/restart-button.webp)
 
 ### Image of Restart Button on Hover
-![Restart Button Hover](assets/readme-images/restart-buton-hover.webp)
+![Restart Button Hover](assets/readme-images/restart-button-hover.webp)
 
 # Features Earmarked for Future Implementation
 
