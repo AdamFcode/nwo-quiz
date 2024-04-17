@@ -193,7 +193,8 @@ body {
     color: white;
 }
 
-//*Media queries to style responsivity across different screen sizes*//
+/*Media queries to style responsivity across different screen sizes*/
+
 @media (min-width: 768px) {
     #rules-img {
         max-width: 1000px;
