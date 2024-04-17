@@ -237,7 +237,7 @@ The accessibility of both pages was tested on www.weave.webaim.org and revealed 
 ![Wave Test Quiz](assets/readme-images/wave-quiz.webp)
 
 ### Lighthouse Testing
-Both pages were tested on Lighthouse, targeting mobile and desktop. The Quiz page returned green scores across both tests. Initially, the performance score of the Homepage was unsatisfactory. The issue was identified as a delay in loading the fonts. A preconnect was added to the HTML for googlefonts and for gstatic which resolved the issue and returned green scores.
+Both pages were tested on Lighthouse, targeting mobile and desktop. The Quiz page returned green scores across both tests. Initially, the performance score of the Homepage on desktop was unsatisfactory. The issue was identified as a delay in loading the fonts. A preconnect was added to the HTML for googlefonts and for gstatic which resolved the issue and returned green scores.
 
 #### Image of Lighthouse Test on index.html for Desktop
 ![Lighthouse Index Desktop](assets/readme-images/index-lighthouse-desktop.webp)
