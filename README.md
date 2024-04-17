@@ -253,7 +253,7 @@ Both pages were tested on Lighthouse, targeting mobile and desktop. The Quiz pag
 
 ## Bugs
 ### JavaScript Issue
-As noted above, during JavaScript testing the function restartQuiz was returning as an unused variable. The function in question is called in the inner-html of a created div and defined as visible below. Due to project deadlines and the late discovery of this issue, the problem could not be solved and has been earmarked for correction in future.
+As noted above, during JavaScript testing the function restartQuiz was returning as an unused variable. The function in question is called in the inner-html of a created div and defined as visible below. The removal or rewording of the function stopped the quiz app from successfully restarting. Due to project deadlines and the late discovery of this issue, the problem could not be solved and has been earmarked for correction in future.
 
 #### Image of restartQuiz code
 ![restartQuiz jshint](assets/readme-images/jshint-problem.webp)
