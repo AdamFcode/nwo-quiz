@@ -41,7 +41,7 @@ The classic nWo logo was selected as the heading. Clicking on the logo returns t
 
 ### Picture of Heading on Desktop
 ![Heading Desktop](assets/readme-images/heading-desktop.webp)
-*Note the misspelling of the word 'separates', a typo identified during the writing of the readme. This has been corrected on the website but unfortunately, due to the deadline, the images on the readme still feature the misspelling. The changed text can be viewed on the live deployment as listed at the top of this readme
+*Note the misspelling of the word 'separates', a typo identified during the writing of the readme. This has been corrected on the website but unfortunately, due to the deadline, the images on the readme still feature the misspelling. The changed text can be viewed on the live deployment as listed at the top of this readme.
 
 ### Picture of Heading on Mobile
 ![Heading Mobile](assets/readme-images/heading-mobile.webp)
