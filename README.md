@@ -257,10 +257,10 @@ As noted above, during JavaScript testing the function restartQuiz was returning
 
 #### Image of restartQuiz code
 ![restartQuiz jshint](assets/readme-images/jshint-problem.webp)
+*Note the calling of restartQuiz in the showScore function
 
 ### CSS issue
 As noted above, during CSS testing an issue was discovered where certain mobile viewports created a large gap between the heading and the headshot of personas in question. This led to the website appearing "blank" if not scrolled down on certain mobiles. Several media queries were implemented, tested and abandoned in order to target this issue with mixed results. Due to project deadlines and the late discovery of this issue, the problem could not be solved and was earmarked for correction in future.
-
 
 # Deployment
 The deployment was conducted on github using the following steps:
@@ -288,7 +288,6 @@ The listed YouTube channels were consulted regularly during the project
 ## Learning Materials
 The learning materials, video tutorials and modules provided by codeinstitute were consulted regularly during the project.
 
-
 ## Abandoned Repository
 The project was initially started on a different repository where early errors in the code resulted in sweeping issues later in the coding process. Due to this, the commits on the project became bloated, confusing and inconcise. The decision was made to abandon the repository and salvage the code that worked and use it in a new repository where the coding process could be more accurately documented and any confusion with the code avoided. The repository in question is on the same github page and is available to view here: https://github.com/AdamFcode/Were-They-nWo 
 
@@ -301,4 +300,4 @@ The project was initially started on a different repository where early errors i
 The text content of the ruleset, headings, questions and all other content was written by the programmer. The readme was spellchecked using Microsoft Word.
 
 # Acknowledgement
-With appreciation for aid lent by the project mentor and class CI provided by codeinstitue as well as fellow students in the slack channel.
+With appreciation for aid lent by the project mentor and class CI provided by codeinstitue, as well as fellow students in the slack channel.
