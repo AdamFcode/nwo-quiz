@@ -41,6 +41,7 @@ The classic nWo logo was selected as the heading. Clicking on the logo returns t
 
 ### Picture of Heading on Desktop
 ![Heading Desktop](assets/readme-images/heading-desktop.webp)
+*Note the misspelling of the word 'separates', a typo identified during the writing of the readme. This has been corrected on the website but unfortunately, due to the deadline, the images on the readme still feature the misspelling. The changed text can be viewed on the live deployment as listed at the top of this readme
 
 ### Picture of Heading on Mobile
 ![Heading Mobile](assets/readme-images/heading-mobile.webp)
@@ -135,6 +136,7 @@ Upon cycling through all of the questions, the user is presented with a congratu
 
 ### Image of Username Entry on Desktop
 ![Username Desktop](assets/readme-images/username-desktop.webp)
+
 
 ### Image of Username Entry on Mobile
 ![Username Mobile](assets/readme-images/username-mobile.webp)
