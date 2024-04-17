@@ -122,7 +122,7 @@ The user is presented with two buttons as potential answers, the text content of
 ![Answer Buttons Selected](assets/readme-images/answer-buttons-selected.webp)
 
 ## Next Button
-Upon selecting an answer, a "next" button materialises to allow the user to select the next question. This button is designed to appear until all questions have been answered. It is styled similarly to prior buttons, with a red splash appearing should the user hover over the button. The next button pulls a random question from the array and continues to do so until all questions have been answered.
+Upon selecting an answer, a "next" button materialises to allow the user to select the next question. This button is designed to not appear until all questions have been answered. It is styled similarly to prior buttons, with a red splash appearing should the user hover over the button. The next button pulls a random question from the array and continues to do so until all questions have been answered.
 
 ### Image of Next Button
 ![Next Button](assets/readme-images/next-button.webp)
